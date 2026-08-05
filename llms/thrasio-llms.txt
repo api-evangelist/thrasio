@@ -1,0 +1,43 @@
+# Thrasio
+
+> Thrasio is a consumer products company founded in 2018 and headquartered in Walpole,
+> Massachusetts, that acquires and operates e-commerce-native consumer brands — principally
+> Amazon marketplace sellers — and scales them with data science, supply-chain and marketing
+> operations. Thrasio is a brand aggregator and operator, not a software vendor.
+
+## Status
+
+Thrasio publishes **no public API**. As of 2026-08-05 there is no developer portal, no API
+reference, no OpenAPI/AsyncAPI/GraphQL/Postman artifact, no SDK, no CLI, no webhook catalog,
+no MCP server and no A2A agent card on any Thrasio-controlled host. `api.thrasio.com`,
+`developer.thrasio.com` and `docs.thrasio.com` do not resolve; `/openapi.json`, `/llms.txt`,
+`/api`, `/api-docs`, `/developers` and every `/.well-known/*` path on `www.thrasio.com` and
+`thras.io` return 404. Thrasio's marketplace integrations run over Amazon's Selling Partner
+API, which Amazon publishes — not Thrasio.
+
+## Company
+
+- [Thrasio](https://www.thrasio.com/): Corporate site.
+- [Company](https://www.thrasio.com/company): Who Thrasio is, leadership, and culture.
+- [Brands](https://www.thrasio.com/brands): The consumer brands Thrasio owns and operates.
+- [How we grow brands](https://www.thrasio.com/for-sellers/how-we-grow-brands): The operating model applied to acquired brands.
+- [Case studies](https://www.thrasio.com/for-sellers/case-studies): Seller outcomes after acquisition.
+- [Blog](https://www.thrasio.com/blog): Company news and commerce commentary.
+- [Careers](https://www.thrasio.com/company/careers): Open roles.
+- [Partnership opportunities](https://www.thrasio.com/commercial-opportunities): Commercial and partner intake form.
+
+## Legal
+
+- [Terms of Use](https://www.thrasio.com/terms-of-use)
+- [Privacy Policy](https://privacy.thrasio.com/hc/en-us/p/Privacy-Policy)
+- [Accessibility](https://www.thrasio.com/accessibility)
+- [Virtual Patent Marking](https://www.thrasio.com/virtual-patent-marking)
+
+## Code
+
+- [GitHub organization](https://github.com/thrasio): Two public repositories, both infrastructure/utility forks (`circleci-runner-k8s`, `time_difference`). Neither is a client library for a Thrasio API.
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/thrasio/refs/heads/main/apis.yml): Machine-readable company profile.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/thrasio/refs/heads/main/security/thrasio-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for thrasio.com.

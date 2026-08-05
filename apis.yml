@@ -1,7 +1,15 @@
 aid: thrasio
 name: Thrasio
-description: 'Thrasio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Thrasio is a consumer products company founded in 2018 and headquartered
+  in Walpole, Massachusetts, that acquires and operates e-commerce-native consumer
+  brands — principally Amazon marketplace sellers — and then scales them with data
+  science, supply-chain and marketing operations. The company states it is one of
+  Amazon''s top five sellers, that its products reach more than 80 million households,
+  and that it sells across 150+ retailers. Thrasio is a brand aggregator and operator
+  rather than a software vendor: it publishes no developer portal, no public API, no
+  SDKs and no machine-readable specifications, and its own marketplace integrations
+  run over Amazon''s Selling Partner API rather than over any Thrasio-published
+  interface.'
 url: https://raw.githubusercontent.com/api-evangelist/thrasio/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +20,12 @@ created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- E-Commerce
+- Consumer Goods
+- Retail
+- Marketplace
+- Brands
+- Amazon
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +34,51 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://www.thrasio.com/
+- type: Blog
+  url: https://www.thrasio.com/blog
+- type: GitHubOrganization
+  url: https://github.com/thrasio
+- type: TermsOfService
+  url: https://www.thrasio.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://privacy.thrasio.com/hc/en-us/p/Privacy-Policy
+- type: Accessibility
+  url: https://www.thrasio.com/accessibility
+- type: Careers
+  url: https://www.thrasio.com/company/careers
+- type: Partners
+  url: https://www.thrasio.com/commercial-opportunities
+- type: LinkedIn
+  url: https://www.linkedin.com/company/thrasio
+- type: YouTube
+  url: https://www.youtube.com/c/thrasio
+- type: StockProfile
   url: https://forgeglobal.com/thrasio_stock/
+- type: DomainSecurity
+  url: security/thrasio-domain-security.yml
+- type: LLMsTxt
+  url: llms/thrasio-llms.txt
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Thrasio is an Amazon-marketplace brand aggregator selling physical consumer
+    goods; api./developer./docs.thrasio.com do not resolve at all, and its only public
+    GitHub repos are a CircleCI Helm chart and a forked Ruby gem.
+  evidence:
+  - url: https://www.thrasio.com/developers
+    status: 404
+  - url: https://www.thrasio.com/openapi.json
+    status: 404
+  - url: https://www.thrasio.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.thrasio.com/llms.txt
+    status: 404
+  - url: https://api.thrasio.com/
+    status: 0
+  checked: '2026-08-05'
