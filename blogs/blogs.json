@@ -1,0 +1,14 @@
+{
+  "repo": "thrasio",
+  "feeds": [
+    {
+      "source": "https://www.thrasio.com/",
+      "feed_url": "https://www.thrasio.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-06T14:08:46Z"
+}
